@@ -1,0 +1,29 @@
+.navbar ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  background-color: var(--color-light-blue);
+  color: var(--color-white);
+}
+
+.navbar li {
+  padding: 12px 20px;
+}
+
+.navbar__house-icon {
+  margin-right: 15px;
+}
+
+#navbar__house-li {
+  background-color: var(--color-dark-blue);
+}
+
+.navbar li:hover {
+  background-color: var(--color-white);
+  color: var(--color-dark-blue);
+}
+
+#navbar__house-li:hover {
+  background-color: var(--color-grey);
+  color: var(--color-black);
+}

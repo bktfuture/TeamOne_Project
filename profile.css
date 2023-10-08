@@ -1,0 +1,82 @@
+/* Profile About */
+.profile__about {
+  padding: 1rem;
+  text-align: center;
+}
+.profile__about img {
+  border-radius: 50%;
+  width: 100px;
+  margin: 15px 0;
+}
+.profile__line {
+  background-color: var(--color-grey);
+  height: 1px;
+}
+.fa-solid,
+.fa-regular {
+  margin-right: 18px;
+}
+.profile__about ul li {
+  text-align: left;
+  list-style: none;
+}
+.profile__about ul li:not(:last-child) {
+  margin: 10px 0;
+}
+/* Profile Info */
+.profile__info,
+.profile__interests {
+  margin: 20px 0;
+}
+.profile__info h4 {
+  background-color: var(--color-light-blue);
+  padding: 5px 1rem;
+  color: var(--color-white);
+  font-weight: 400;
+}
+.profile__info p {
+  padding: 20px 1rem;
+}
+.info-images {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.info-images img {
+  width: 40%;
+}
+/* Profile Interests */
+.profile__interests {
+  padding: 1rem;
+}
+.profile__interests h4 {
+  margin-bottom: 10px;
+}
+.interests-list a {
+  display: inline-block;
+  color: var(--color-white);
+  padding: 5px;
+  margin: 2px 0;
+  font-size: 15px;
+}
+/* Profile Analytics */
+.profile__analytics {
+  padding: 1rem;
+  position: relative;
+  border: 1px solid var(--color-grey);
+}
+.fa-xmark {
+  background-color: #becbd2;
+  padding: 10px 15px;
+  position: absolute;
+  right: -18px;
+  top: 0;
+}
+.fa-xmark:hover,
+.profile__info h4:hover {
+  color: var(--color-black);
+  background-color: var(--color-grey);
+  cursor: pointer;
+}
