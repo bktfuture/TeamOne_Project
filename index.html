@@ -5,6 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Social Network</title>
     <link rel="stylesheet" href="/style..css" />
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="profile.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body></body>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li id="navbar__house-li"><i class="fa-solid fa-house-chimney navbar__house-icon"></i>Seytech</li>
+        <li><i class="fa-solid fa-earth-americas"></i></li>
+        <li><i class="fa-solid fa-user"></i></li>
+        <li><i class="fa-solid fa-envelope"></i></li>
+      </ul>
+    </nav>
+
+    <main class="main">
+      <section class="profile">
+        <div class="profile__about bg-white box-shadow">
+          <h3>My profile</h3>
+          <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/marat.jpg" alt="img-Marat">
+          <div class="profile__line"></div>
+          <ul>
+            <li><i class="fa-solid fa-pencil"></i>Software Engineer</li>
+            <li><i class="fa-solid fa-house-chimney"></i>Seattle, WA</li>
+            <li><i class="fa-solid fa-cake-candles"></i>April 10</li>
+          </ul>
+        </div>
+
+        <div class="profile__info box-shadow">
+          <h4><i class="fa-regular fa-circle"></i>My Groups</h4>
+          <p class="bg-white">Some text..</p>
+          <h4><i class="fa-regular fa-calendar"></i>My Events</h4>
+          <p class="bg-white">Some other text..</p>
+          <h4><i class="fa-solid fa-users"></i>My images</h4>
+          <div class="info-images bg-white">
+            <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/lights.jpg" alt="img-lights">
+            <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/nature.jpg" alt="img-nature">
+            <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/mountains.jpg" alt="img-mountains">
+            <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/forest.jpg" alt="img-forest">
+            <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/nature.jpg" alt="img-nature">
+            <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/snow.jpg" alt="img-snow">
+          </div>
+        </div>
+
+        <div class="profile__interests bg-white box-shadow">
+          <h4>Interests</h4>
+          <div class="interests-list">
+            <a class="bg-dark-blue">News</a>
+            <a class="bg-dark-blue">Seytech</a>
+            <a class="bg-light-blue">Algos</a>
+            <a class="bg-light-blue">Games</a>
+            <a class="bg-light-blue">Friends</a>
+            <a class="bg-light-blue">Games</a>
+            <a class="bg-light-blue">Friends</a>
+            <a class="bg-dark-grey">Food</a>
+            <a class="bg-dark-grey">Design</a>
+            <a class="bg-dark-grey">Art</a>
+            <a class="bg-dark-grey">Photos</a>
+          </div>
+        </div>
+
+        <div class="profile__analytics bg-light-grey">
+          <h4>Hey!</h4>
+          <i class="fa-solid fa-xmark"></i>
+          <p>People are looking at your profile.</p>
+          <p>Find out who.</p>
+        </div>
+      </section>
+
+      <section class="content"></section>
+      <aside class="aside"></aside>
+    </main>
+  </body>
 </html>

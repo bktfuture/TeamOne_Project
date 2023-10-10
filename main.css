@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #f5f7f8;
+}
+
+:root {
+  --color-white: #fff;
+  --color-light-blue: #199de5;
+  --color-dark-blue: #076490;
+  --color-grey: #ccc;
+  --color-black: #000000;
+  --color-dark-grey: #607d8b;
+  --color-light-grey: #dfe5e8;
+}
+
+.main {
+  height: 100vh;
+  margin: 20px auto;
+  width: 80%;
+
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 25% auto 17%;
+}
+
+.bg-white {
+  background-color: var(--color-white);
+}
+
+.bg-light-blue {
+  background-color: var(--color-light-blue);
+}
+
+.bg-dark-blue {
+  background-color: var(--color-dark-blue);
+}
+
+.bg-dark-grey {
+  background-color: var(--color-dark-grey);
+}
+.bg-light-grey {
+  background-color: var(--color-light-grey);
+}
+
+.box-shadow {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.content {
+  background-color: pink;
+}
+
+.aside {
+  background-color: rgb(153, 213, 120);
+}
