@@ -22,7 +22,7 @@ body {
 }
 
 .main {
-  height: 100vh;
+  /* height: 100vh; */
   margin: 20px auto;
   width: 80%;
 
@@ -55,7 +55,7 @@ body {
 }
 
 .content {
-  background-color: pink;
+  background-color: color(--color-white);
 }
 
 .aside {

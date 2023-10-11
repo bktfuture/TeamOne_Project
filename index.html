@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Social Network</title>
-    <link rel="stylesheet" href="/style..css" />
-    <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="/content.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="profile.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -17,20 +17,29 @@
     />
   </head>
   <body>
+    <!-- NAVBAR -->
+
     <nav class="navbar">
       <ul>
-        <li id="navbar__house-li"><i class="fa-solid fa-house-chimney navbar__house-icon"></i>Seytech</li>
+        <li id="navbar__house-li">
+          <i class="fa-solid fa-house-chimney navbar__house-icon"></i>Seytech
+        </li>
         <li><i class="fa-solid fa-earth-americas"></i></li>
         <li><i class="fa-solid fa-user"></i></li>
         <li><i class="fa-solid fa-envelope"></i></li>
       </ul>
     </nav>
+    <!-- MAIN  -->
 
     <main class="main">
+      <!-- PROFILE section -->
       <section class="profile">
         <div class="profile__about bg-white box-shadow">
           <h3>My profile</h3>
-          <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/marat.jpg" alt="img-Marat">
+          <img
+            src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/marat.jpg"
+            alt="img-Marat"
+          />
           <div class="profile__line"></div>
           <ul>
             <li><i class="fa-solid fa-pencil"></i>Software Engineer</li>
@@ -46,12 +55,30 @@
           <p class="bg-white">Some other text..</p>
           <h4><i class="fa-solid fa-users"></i>My images</h4>
           <div class="info-images bg-white">
-            <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/lights.jpg" alt="img-lights">
-            <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/nature.jpg" alt="img-nature">
-            <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/mountains.jpg" alt="img-mountains">
-            <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/forest.jpg" alt="img-forest">
-            <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/nature.jpg" alt="img-nature">
-            <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/snow.jpg" alt="img-snow">
+            <img
+              src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/lights.jpg"
+              alt="img-lights"
+            />
+            <img
+              src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/nature.jpg"
+              alt="img-nature"
+            />
+            <img
+              src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/mountains.jpg"
+              alt="img-mountains"
+            />
+            <img
+              src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/forest.jpg"
+              alt="img-forest"
+            />
+            <img
+              src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/nature.jpg"
+              alt="img-nature"
+            />
+            <img
+              src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/snow.jpg"
+              alt="img-snow"
+            />
           </div>
         </div>
 
@@ -80,7 +107,108 @@
         </div>
       </section>
 
-      <section class="content"></section>
+      <!-- CONTENT section -->
+      <section class="content">
+        <!-- Post section -->
+        <div class="content__post">
+          <div class="content__post__quote">
+            <p class="content__post__p" contenteditable="true">
+              Feeling awesome!
+            </p>
+          </div>
+          <button class="content__button">
+            <i class="fa fa-pencil"></i>Post
+          </button>
+        </div>
+        <!-- First post -->
+        <div class="content__post">
+          <img
+            src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/rachel.jpeg"
+            alt="Avatar"
+            class="content__pfp"
+            style="width: 60px"
+          />
+          <span class="content__span">1 min</span>
+          <h4 class="content__h">Rachel Sine</h4>
+          <hr class="content__hr" />
+          <p class="content__p">
+            Next cohort will start soon. We strive for teaching our students the
+            most up-to-date programming technologies. Contact us.
+          </p>
+          <div class="content__onepost__imgbox">
+            <img
+              src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/p0.png"
+              alt="Shirts"
+            />
+            <img
+              src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/p1.jpg"
+              alt="Brain"
+            />
+          </div>
+          <button class="content__button">
+            <i class="fa fa-thumbs-up"></i>Like
+          </button>
+          <button class="content__button">
+            <i class="fa fa-comment"></i>Comment
+          </button>
+        </div>
+        <!-- Second post -->
+        <div class="content__twopost">
+          <img
+            src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/aikol.jpeg"
+            alt="Avatar"
+            class="content__pfp"
+            style="width: 60px"
+          />
+          <span class="content__span">16 min</span>
+          <h4 class="content__h">Aikol T</h4>
+          <hr class="content__hr" />
+          <p class="content__p">
+            Join us at the new and improved Microsoft! We are building the
+            Developer Relations dream team in Azure engineering. Our global team
+            is...
+          </p>
+          <button class="content__button">
+            <i class="fa fa-thumbs-up"></i>Like
+          </button>
+          <button class="content__button">
+            <i class="fa fa-comment"></i>Comment
+          </button>
+        </div>
+
+        <!-- Third post -->
+        <div class="content__threepost">
+          <img
+            src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/ulan.jpeg"
+            alt="Avatar"
+            class="content__pfp"
+            style="width: 60px"
+          />
+          <span class="content__span">32 min</span>
+          <h4 class="content__h">L'uan R</h4>
+          <hr class="content__hr" />
+          <p class="content__p">Have you seen this?</p>
+          <img
+            src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/web.png"
+            alt="Computer"
+            class="content__threepost__img"
+            style="width: 100%"
+          />
+          <p class="content__p">
+            Coding bootcamp reviews, rankings, and resources to help students
+            find what they need.
+          </p>
+          <a href="#" class="content__threepost__a">Bootcamp Venue</a>
+          <button class="content__button">
+            <i class="fa fa-thumbs-up"></i>Like
+          </button>
+          <button class="content__button">
+            <i class="fa fa-comment"></i>Comment
+          </button>
+        </div>
+      </section>
+
+      <!-- ASIDE section -->
       <aside class="aside"></aside>
     </main>
   </body>
