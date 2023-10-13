@@ -33,6 +33,7 @@
   padding: 5px 1rem;
   color: var(--color-white);
   font-weight: 400;
+  text-align: left;
 }
 .profile__info p {
   padding: 20px 1rem;
