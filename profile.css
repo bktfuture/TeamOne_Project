@@ -12,8 +12,8 @@
   background-color: var(--color-grey);
   height: 1px;
 }
-.fa-solid,
-.fa-regular {
+.profile__about-icons,
+.profile__info-icons {
   margin-right: 18px;
 }
 .profile__about ul li {
