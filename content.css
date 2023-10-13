@@ -15,6 +15,7 @@
   font-size: 15px;
   padding-top: 14px;
   padding-bottom: 14px;
+  margin-left: 0;
 }
 .content__pfp {
   border-radius: 50%;
@@ -48,6 +49,7 @@
 .content__post__p {
   border: 1px solid rgb(204, 204, 204);
   padding: 8px 16px;
+  margin-left: 0;
 }
 
 /* First post */
@@ -93,4 +95,10 @@
 .content__threepost__a {
   color: var(--color-black);
   display: block;
+}
+
+.content__button:hover {
+  color: var(--color-black);
+  background-color: var(--color-grey);
+  cursor: pointer;
 }
