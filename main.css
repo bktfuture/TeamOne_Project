@@ -23,7 +23,7 @@ body {
 
 .main {
   margin: 20px auto;
-  width: 97%;
+  width: 80%;
 
   display: grid;
   grid-gap: 10px;
