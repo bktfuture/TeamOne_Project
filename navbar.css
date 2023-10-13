@@ -8,6 +8,7 @@
 
 .navbar li {
   padding: 12px 23px;
+  cursor: pointer;
 }
 
 .navbar__house-icon {
