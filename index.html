@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Social Network</title>
-    <link rel="stylesheet" href="/content.css" />
+    <link rel="stylesheet" href="content.css" />
     <link rel="stylesheet" href="navbar.css" />
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="profile.css" />
+    <link rel="stylesheet" href="aside.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -15,6 +16,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./aside.css" />
   </head>
   <body>
     <!-- NAVBAR -->
@@ -106,7 +108,6 @@
           <p>Find out who.</p>
         </div>
       </section>
-
       <!-- CONTENT section -->
       <section class="content">
         <!-- Post section -->
@@ -207,9 +208,38 @@
           </button>
         </div>
       </section>
-
-      <!-- ASIDE section -->
-      <aside class="aside"></aside>
+      <aside class="aside">
+        <div class="aside__react bg-white box-shadow">
+          <p class="aside__react-title">Upcoming Events:</p>
+          <img src="./images/event.png" alt="photo_react" />
+          <h4>React Course</h4>
+          <p>Friday 15:00</p>
+          <a href="#">Info</a>
+        </div>
+        <div class="aside__request bg-white box-shadow">
+          <h4>Friend Request</h4>
+          <img src="./images/dog.jpg" alt="dog_photo" />
+          <p>Shiba Inu</p>
+          <a href="#" class="aside__request-btn btn-1"><i class="fa-solid fa-check"></i></i></a>
+          <a href="#" class="aside__request-btn btn-2"><i class="fa-solid fa-x"></i></a>
+        </div>
+        <div class="aside__ads bg-white box-shadow">
+          <p>ADS</p>
+        </div>
+        <div class="aside__bug bg-white box-shadow">
+          <a href="#"><i class="fa-solid fa-bug"></i></a>
+        </div>
+      </aside>
     </main>
+    <footer>
+      <div class="container">
+       <div class="footer__block1">
+         <h5>Footer</h5>
+      </div>
+      <div class="footer__block2">
+         <p>Powered by <a href="#">your team name</a></p>
+      </div>
+    </div>
+    </footer>
   </body>
 </html>
