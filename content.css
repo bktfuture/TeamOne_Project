@@ -46,6 +46,10 @@
   width: 100%;
   margin-bottom: 17px;
 }
+.content__post__author {
+  display: grid;
+  grid-template-columns: 6% auto 7%;
+}
 .content__post__p {
   border: 1px solid rgb(204, 204, 204);
   padding: 8px 16px;
