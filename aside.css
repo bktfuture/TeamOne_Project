@@ -1,23 +1,14 @@
 .aside__react {
-  padding-bottom: 5px;
+  text-align: center;
+  padding: 10px 0;
 }
 .aside__react img {
   width: 100%;
+  margin: 10px 0;
   padding: 0 15px;
 }
-.aside__react p,
-a,
-h4 {
-  text-align: center;
-  padding: 15px;
-}
-.aside__request {
-  margin: 20px 0;
-  text-align: center;
-  padding-bottom: 15px;
-}
-.aside__request img {
-  width: 50%;
+.aside_react-time {
+  margin: 10px 0 15px 0;
 }
 .aside__react a {
   margin: 10px auto;
@@ -31,9 +22,18 @@ h4 {
 .aside__react a:hover {
   background-color: var(--color-grey);
 }
+.aside__request {
+  margin: 20px 0;
+  text-align: center;
+  padding: 10px 5px;
+}
+.aside__request img {
+  width: 50%;
+  margin-top: 10px;
+}
 .aside__request-btn {
   display: inline-block;
-  padding: 10px 30px;
+  padding: 10px 38px;
   color: var(--color-white);
   text-align: center;
 }

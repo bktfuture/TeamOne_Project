@@ -56,3 +56,10 @@ body {
 .content {
   background-color: color(--color-white);
 }
+
+@media (max-width: 1200px) {
+  .main {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
