@@ -4,6 +4,14 @@
   padding: 0;
   background-color: var(--color-light-blue);
   color: var(--color-white);
+  background-image: linear-gradient(
+    to right,
+    #282cb1,
+    #004ec6,
+    #006ad5,
+    #0084df,
+    #199de5
+  );
 }
 
 .navbar li {
@@ -15,9 +23,9 @@
   margin-right: 15px;
 }
 
-#navbar__house-li {
+/* #navbar__house-li {
   background-color: var(--color-dark-blue);
-}
+} */
 
 .navbar li:hover {
   background-color: var(--color-white);
